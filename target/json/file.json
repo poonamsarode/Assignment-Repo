@@ -1,0 +1,78 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-15T10:37:08.877Z",
+        "line": 5,
+        "name": "User is able to opean the browser,navigate to the URL and Search for Product",
+        "description": "",
+        "id": "e-commerce-project-web-site-health-check;user-is-able-to-opean-the-browser-navigate-to-the-url-and-search-for-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User opean the browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1998600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User navigated to the home application url",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3999700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Application title is \"Online Jewellery Shopping India | Candere By Kalyan Jewellers | Most Trusted Online Jewellery Store\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55963200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User search for a product \"majestic solitaire diamond ring\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Search result is displyed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      }
+    ],
+    "name": "E-commerce Project Web Site Health Check",
+    "description": "",
+    "id": "e-commerce-project-web-site-health-check",
+    "keyword": "Feature",
+    "uri": "classpath:features/HelthCheak.feature",
+    "tags": []
+  }
+]

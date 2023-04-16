@@ -8,8 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions (
 		features = "classpath:features",
-		glue = "stepdefs",
-		tags = "@Search  ",
+		glue = " kalyanJwellars.stepdefs",
+		tags = "@ui",
 		plugin =  {"pretty",         // to generate reports
 	            "html:target/html/htmlreport.html",
 	            "json:target/json/file.json",
